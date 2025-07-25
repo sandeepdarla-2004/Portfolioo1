@@ -20,20 +20,20 @@ const Projects = () => {
       codeUrl: 'https://github.com/sandeepdarla-2004/Ecommerce-website',
     },
     {
-      title: 'Emergency Ward Management System',
-      description: 'Intelligent healthcare management system using ML to predict patient inflow and optimize resource allocation.',
-      longDescription: 'Built a predictive analytics system for emergency ward management that uses machine learning algorithms to forecast patient inflow patterns and optimize resource allocation in real-time.',
+      title: '🗂 Task Manager App',
+      description: 'A full-stack task management app built using Lovable and Supabase. Users can securely sign up, log in, and manage their to-do tasks. Features include task creation, editing, marking as completed, deleting, filtering by status, and sorting by due date — all with user-specific access enforced using Supabase Row-Level Security (RLS).',
+      longDescription: '',
       impact: [
-        'Optimized resource allocation',
-        'Improved patient flow management',
-        'Reduced waiting times',
-        'Enhanced operational efficiency'
+        'Implements Supabase RLS to ensure each user accesses only their own tasks.',
+        'Helps users organize tasks by due date and status (pending/completed).',
+        'Clean UI built with Lovable for seamless task interaction.',
+        'Covers essential CRUD operations, authentication, and data filtering — ideal for portfolio and job-ready skills.'
       ],
-      technologies: ['Python', 'Machine Learning', 'Data Analytics', 'Healthcare Systems', 'Predictive Modeling'],
+      technologies: ['Lovable.dev', 'Supabase', 'Vercel'],
       icon: <Activity className="text-green-600" size={24} />,
       gradient: 'from-green-500 to-emerald-600',
-      liveDemo: 'https://emergency-ward-mng-sytem.vercel.app/login',
-      codeUrl: 'https://github.com/sandeepdarla-2004/Emergency-Ward-Mng-Sytem',
+      liveDemo: 'https://supabase-task-lovable.vercel.app/',
+      codeUrl: 'https://github.com/sandeepdarla-2004/supabase-task-lovable.git',
     },
     {
       title: 'Coding Hub – Open Code Sharing Platform',
@@ -65,6 +65,21 @@ const Projects = () => {
       gradient: 'from-blue-200 to-blue-400',
       liveDemo: 'https://studio--churnforecaster-j0wv9.us-central1.hosted.app',
       codeUrl: 'https://github.com/sandeepdarla-2004/crumprediction.git',
+    },
+    {
+      title: '📉 Customer Churn Prediction',
+      description: '',
+      longDescription: 'A machine learning web app that predicts whether a customer is likely to leave based on their input data. It provides quick churn predictions to help businesses improve customer retention.',
+      impact: [
+        'Helps businesses identify at-risk customers early and take proactive steps.',
+        'Provides instant insights using an interactive web interface.',
+        'Empowers teams to make informed marketing and support interventions.'
+      ],
+      technologies: ['Next.js', 'Netlify', 'Python', 'Python + Pickle'],
+      icon: <Users className="text-blue-400" size={24} />, 
+      gradient: 'from-blue-200 to-blue-400',
+      liveDemo: 'https://studio--churnforecaster-j0wv9.us-central1.hosted.app',
+      codeUrl: 'https://github.com/sandeepdarla-2004/lovable-tasks-supabase.git',
     },
     {
       title: '🪴 EchoSpace – Thought Organization Web App',

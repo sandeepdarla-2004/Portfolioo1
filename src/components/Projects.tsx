@@ -66,21 +66,7 @@ const Projects = () => {
       liveDemo: 'https://studio--churnforecaster-j0wv9.us-central1.hosted.app',
       codeUrl: 'https://github.com/sandeepdarla-2004/crumprediction.git',
     },
-    {
-      title: '📉 Customer Churn Prediction',
-      description: '',
-      longDescription: 'A machine learning web app that predicts whether a customer is likely to leave based on their input data. It provides quick churn predictions to help businesses improve customer retention.',
-      impact: [
-        'Helps businesses identify at-risk customers early and take proactive steps.',
-        'Provides instant insights using an interactive web interface.',
-        'Empowers teams to make informed marketing and support interventions.'
-      ],
-      technologies: ['Next.js', 'Netlify', 'Python', 'Python + Pickle'],
-      icon: <Users className="text-blue-400" size={24} />, 
-      gradient: 'from-blue-200 to-blue-400',
-      liveDemo: 'https://studio--churnforecaster-j0wv9.us-central1.hosted.app',
-      codeUrl: 'https://github.com/sandeepdarla-2004/lovable-tasks-supabase.git',
-    },
+  
     {
       title: '🪴 EchoSpace – Thought Organization Web App',
       description: '',
